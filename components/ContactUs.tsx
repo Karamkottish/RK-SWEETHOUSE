@@ -186,34 +186,6 @@ export default function ContactUs() {
 
             {/* Right — Contact info */}
             <div className="flex flex-col gap-8">
-              {/* Phone card */}
-              <motion.a
-                href={`tel:${PHONE_CLEAN}`}
-                initial={{ opacity: 0, x: 30 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] as [number, number, number, number] }}
-                className="group flex items-center gap-5 p-6 rounded-2xl transition-all duration-300 hover:shadow-lg hover:shadow-pink-brand/8 cursor-pointer"
-                style={{
-                  background: "linear-gradient(145deg, #FFFFFF 0%, #FFF8FC 100%)",
-                  border: "1px solid rgba(255, 214, 236, 0.35)",
-                }}
-              >
-                <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-pink-brand to-pink-deep flex items-center justify-center flex-shrink-0 shadow-lg shadow-pink-brand/25 group-hover:scale-110 transition-transform duration-300">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
-                  </svg>
-                </div>
-                <div>
-                  <p className="text-xs text-gray-400 font-medium tracking-wide uppercase mb-1">Call or Text us</p>
-                  <p
-                    className="text-xl font-bold text-gray-800 group-hover:text-pink-brand transition-colors duration-200"
-                    style={{ fontFamily: "var(--font-playfair)" }}
-                  >
-                    {PHONE}
-                  </p>
-                </div>
-              </motion.a>
 
               {/* WhatsApp card */}
               <motion.a

@@ -24,7 +24,7 @@ const menuItems = [
     id: 3,
     title: "2 Pieces Coconut Cake",
     description: "2 pieces of RK SweetHouse cake with a generous sprinkle of love and coconut.",
-    price: "17",
+    price: "17 Each Piece ",
     images: ["/menu/image5.jpeg"],
   },
   {
@@ -111,9 +111,8 @@ export default function MenuPage() {
             return (
               <div
                 key={item.id}
-                className={`flex flex-col ${
-                  isEven ? "lg:flex-row" : "lg:flex-row-reverse"
-                } items-center gap-10 lg:gap-20`}
+                className={`flex flex-col ${isEven ? "lg:flex-row" : "lg:flex-row-reverse"
+                  } items-center gap-10 lg:gap-20`}
               >
                 {/* Images Container */}
                 <motion.div

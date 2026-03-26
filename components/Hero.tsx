@@ -207,7 +207,7 @@ export default function Hero() {
           </div>
 
           {/* Right — Floating Logo */}
-          <div className="relative flex items-center justify-center h-[500px] lg:h-full min-h-[480px]" style={{ pointerEvents: 'auto' }}>
+          <div className="relative flex items-center justify-center h-[400px] sm:h-[500px] lg:h-full lg:min-h-[600px] w-full" style={{ pointerEvents: 'auto' }}>
             <motion.div
               initial={{ opacity: 0, scale: 0.6, y: 40 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
@@ -216,18 +216,16 @@ export default function Hero() {
                 ease: [0.22, 1, 0.36, 1] as [number, number, number, number],
                 delay: 0.8,
               }}
-              className="relative z-10 animate-float flex items-center justify-center"
+              className="relative z-10 animate-float flex items-center justify-center w-full h-full"
             >
-              <div className="glass-card p-5 shadow-2xl shadow-pink-brand/20">
-                <div className="relative w-52 h-52 sm:w-64 sm:h-64">
-                  <Image
-                    src="/logo.png"
-                    alt="RK SweetHouse"
-                    fill
-                    className="object-contain drop-shadow-xl"
-                    priority
-                  />
-                </div>
+              <div className="relative w-full h-full min-h-[350px] sm:min-h-[450px] lg:min-h-[600px] scale-[1.15] sm:scale-125 lg:scale-[1.35] lg:-ml-16 drop-shadow-2xl">
+                <Image
+                  src="/3d-logo-transparent.png"
+                  alt="RK SweetHouse 3D Logo"
+                  fill
+                  className="object-contain"
+                  priority
+                />
               </div>
             </motion.div>
           </div>

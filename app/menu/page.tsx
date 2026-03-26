@@ -8,7 +8,7 @@ import Navbar from "@/components/Navbar";
 const menuItems = [
   {
     id: 1,
-    title: "7 Pieces Cake with Marshmallows",
+    title: "6 Pieces Cake with Marshmallows",
     description: "7 pieces of RK SweetHouse cake with 5 pieces of marshmallows, sprinkled with love and coconut.",
     price: "25",
     images: ["/menu/image1.jpeg", "/menu/image2.jpeg"],

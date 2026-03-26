@@ -78,8 +78,8 @@ export default function MenuPage() {
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
             className="mb-8"
           >
-            <div className="inline-block relative w-24 h-24 sm:w-28 sm:h-28 glass-card p-3 rounded-[2rem] shadow-xl shadow-pink-brand/10">
-              <Image src="/logo.png" alt="RK SweetHouse" fill className="object-contain p-2" priority />
+            <div className="inline-block relative w-36 h-36 sm:w-48 sm:h-48 glass-card p-4 rounded-[2.5rem] shadow-xl shadow-pink-brand/10 mb-2">
+              <Image src="/logo.png" alt="RK SweetHouse" fill className="object-contain p-2 scale-110" priority />
             </div>
           </motion.div>
 

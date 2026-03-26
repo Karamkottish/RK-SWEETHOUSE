@@ -228,21 +228,7 @@ export default function MenuPage() {
         </div>
       </div>
 
-      {/* Footer */}
-      <motion.footer
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        viewport={{ once: true }}
-        transition={{ delay: 0.2, duration: 0.8 }}
-        className="relative z-10 text-center mt-32 pt-10 border-t border-pink-soft/30 max-w-6xl mx-auto w-full flex flex-col sm:flex-row justify-between items-center gap-4 px-6 text-xs text-gray-400"
-      >
-        <p>© {new Date().getFullYear()} RK SweetHouse · A Bite of Love</p>
-        <div className="flex items-center gap-1">
-          <span>Made with</span>
-          <span className="text-pink-brand">❤️</span>
-          <span>by the RK Family</span>
-        </div>
-      </motion.footer>
+
     </main>
   );
 }

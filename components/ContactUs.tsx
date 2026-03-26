@@ -266,31 +266,7 @@ export default function ContactUs() {
           </div>
         </div>
 
-        {/* Decorative divider before footer */}
-        <div className="relative mt-24 max-w-2xl mx-auto flex items-center justify-center">
-          <div className="w-full h-px bg-gradient-to-r from-transparent via-pink-brand/30 to-transparent" />
-          <div className="absolute w-2 h-2 rounded-full bg-pink-brand/50" />
-        </div>
 
-        {/* Footer */}
-        <motion.footer
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-          className="relative z-10 mt-28 pt-8 border-t border-pink-soft/30"
-        >
-          <div className="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-            <p className="text-xs text-gray-400">
-              © {new Date().getFullYear()} RK SweetHouse · A Bite of Love
-            </p>
-            <div className="flex items-center gap-1 text-xs text-gray-400">
-              <span>Made with</span>
-              <span className="text-pink-brand">❤️</span>
-              <span>by the RK Family</span>
-            </div>
-          </div>
-        </motion.footer>
       </section>
     </>
   );
